@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308ddb0-3016-4913-a7f5-ba4decbbab75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CompletableFutures.java" afterDir="false" />
+    <list default="true" id="8308ddb0-3016-4913-a7f5-ba4decbbab75" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExecutorServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NonBlocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/forkJoinFramework/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lorem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +45,72 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FileProcessor">
     <configuration name="CompletableFutures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CompletableFutures" />
       <module name="async-java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.forkJoinFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExecutorServices" />
+      <module name="async-java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.forkJoinFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.forkJoinFramework.FileProcessor" />
+      <module name="async-java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.forkJoinFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Futures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Futures" />
+      <module name="async-java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.forkJoinFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBlocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NonBlocking" />
+      <module name="async-java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.forkJoinFramework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,6 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileProcessor" />
+        <item itemvalue="Application.NonBlocking" />
+        <item itemvalue="Application.Futures" />
+        <item itemvalue="Application.ExecutorServices" />
         <item itemvalue="Application.CompletableFutures" />
       </list>
     </recent_temporary>
@@ -81,29 +140,55 @@
       <workItem from="1681654701313" duration="1110000" />
       <workItem from="1681726804728" duration="54000" />
       <workItem from="1681726899879" duration="672000" />
+      <workItem from="1681835568498" duration="2031000" />
+      <workItem from="1682019582542" duration="679000" />
+      <workItem from="1682028205051" duration="2018000" />
+      <workItem from="1682056668627" duration="1525000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1681835913069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681835913069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/CompletableFutures.java</url>
-          <line>22</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/CompletableFutures.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java</url>
+          <line>2663</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/CompletableFutures.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>1328</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java</url>
+          <line>403</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
